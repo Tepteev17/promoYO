@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function closeModal(){
     modal.classList.remove("active");
     modalWindow.classList.remove("active");
+    document.body.style.overflow = 'scroll'
     thanksmModalContent.classList.remove('active')
   }
   function closeModalCoupon(){
